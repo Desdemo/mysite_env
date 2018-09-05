@@ -1,0 +1,10 @@
+{% extends 'form.html' %}
+{% block other_buttons %}
+    <button id="send_code" class="btn btn-primary">发送验证码</button>
+{% endblock %}
+
+{% block script_extends %}
+    <script type="text/javascript">
+        $('#send_code')
+    </script>
+{% endblock %}
